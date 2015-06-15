@@ -1,3 +1,7 @@
+// LICENSE: The MIT License (MIT)
+// COPYRIGHT: Tim Robinson <tim@voltgrid.com>
+// some code also from http://stackoverflow.com/a/10385867
+
 package main
 
 import "flag"

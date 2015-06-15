@@ -4,6 +4,9 @@ Similar to the linux watch command, but for doing checks in the background.
 Simply calls the defined command each x seconds and if the command exits
 non-zero it exits with the same exit code.
 
+Altough this could have been done in a couple of lines with bash I thought I'd
+give golang a try.
+
 ### Usage
 
 ```
@@ -31,3 +34,11 @@ HTTP CRITICAL - Unable to open TCP socket
 root@62fc98952d7b:/# echo $?
 2
 ```
+
+### License
+
+The MIT License (MIT)
+
+Copyright Tim Robinson <tim@voltgrid.com>
+
+Some code for getting exit codes is from http://stackoverflow.com/a/10385867
